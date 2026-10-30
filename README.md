@@ -75,3 +75,4 @@ docker run -d -p 8080:8080 shopmart:latest
    - `SPRING_DATASOURCE_URL`: `jdbc:mysql://<host>:<port>/<dbname>?useSSL=true&requireSSL=true`
    - `SPRING_DATASOURCE_USERNAME`: `<db_user>`
    - `SPRING_DATASOURCE_PASSWORD`: `<db_password>`
+
