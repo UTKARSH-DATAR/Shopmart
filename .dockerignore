@@ -1,0 +1,54 @@
+# ==========================================
+# Legacy Reference Project (Ignored as requested)
+# ==========================================
+Flopkart reference/
+Flopkart reference
+flopkart reference/
+flopkart reference
+
+# ==========================================
+# Git & Environment Files
+# ==========================================
+.git/
+.gitignore
+.env
+.env.*
+
+# ==========================================
+# IDE & Editor Files
+# ==========================================
+.idea/
+.vscode/
+*.swp
+*.swo
+*.DS_Store
+Thumbs.db
+
+# ==========================================
+# Frontend Build Artifacts & Dependencies
+# ==========================================
+frontend/node_modules/
+frontend/dist/
+frontend/.angular/
+frontend/.cache/
+frontend/coverage/
+**/node_modules/
+**/dist/
+
+# ==========================================
+# Backend Build Artifacts
+# ==========================================
+backend/target/
+backend/.settings/
+backend/.project
+backend/.classpath
+**/target/
+
+# ==========================================
+# Logs & Temp Files
+# ==========================================
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+

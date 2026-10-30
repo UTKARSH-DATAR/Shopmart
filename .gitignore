@@ -1,0 +1,54 @@
+# ==========================================
+# Legacy Reference Project (Ignored as requested)
+# ==========================================
+Flopkart reference/
+Flopkart reference
+flopkart reference/
+flopkart reference
+
+# ==========================================
+# Java / Spring Boot Build Artifacts
+# ==========================================
+backend/target/
+**/target/
+*.class
+*.jar
+*.war
+*.ear
+
+# ==========================================
+# Node / Angular Build Artifacts
+# ==========================================
+frontend/node_modules/
+**/node_modules/
+frontend/dist/
+**/dist/
+frontend/.angular/
+frontend/.cache/
+frontend/coverage/
+
+# ==========================================
+# IDE & System Files
+# ==========================================
+.idea/
+.vscode/
+*.iml
+*.iws
+*.ipr
+.project
+.classpath
+.settings/
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+
+# ==========================================
+# Logs & Environment
+# ==========================================
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.env
+.env.*
