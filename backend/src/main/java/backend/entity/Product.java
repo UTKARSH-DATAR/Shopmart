@@ -18,7 +18,7 @@ public class Product {
     private Double price;
     private Integer stockQuantity;
 
-    @Column(length = 1000)
+    @Column(columnDefinition = "TEXT")
     private String imageUrl;
 
     private String category;
