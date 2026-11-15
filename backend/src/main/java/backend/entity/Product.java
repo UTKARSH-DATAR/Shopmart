@@ -11,10 +11,16 @@ public class Product {
     private Long id;
 
     private String name;
+
+    @Column(columnDefinition = "TEXT")
     private String description;
+
     private Double price;
     private Integer stockQuantity;
+
+    @Column(length = 1000)
     private String imageUrl;
+
     private String category;
     private String status = "Active"; // "Active" or "Deleted" (replicates Flopkart soft delete)
 
